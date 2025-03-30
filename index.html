@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Weather App</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nabla&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Super Weather App 2000™</h1>
+    <h2 id="loading" class="">Loading<span id="dot1">.</span><span id="dot2">.</span><span id="dot3">.</span></h2>
+    <h2 id="time" class="hidden"></h2>
+    <div class="hidden weather-box">
+        <figure>
+            <img id="weather-icon" src="" alt="">
+            <figcaption id="weather-description"></figcaption>
+        </figure>
+        <hr>
+        <p id="temperature"></p>
+        <button id="unit-button">Change to Fahrenheit</button>
+    </div>
+    <h3 id="coordinates" class="hidden">@Coordinates <span id="latitude"></span>, <span id="longitude"></span></h3>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
